@@ -17,4 +17,5 @@
    - attribute
    - element, content
    - Debugging
-8. Basic Tags,styling Debugging
+   - comment
+8. headings,paragraps, Line break ,Horizental rule
