@@ -19,3 +19,12 @@
    - Debugging
    - comment
 8. headings,paragraps, Line break ,Horizental rule
+9. semantic HTML vs Non-semantic
+ - semantic tag - main, footer,header,from, table.
+ - Non-semantic - div, span.
+ 10. text formating tag
+ 11. list 
+ 12. link
+ 13. tabel
+ 14. from
+ 15. Deploy
