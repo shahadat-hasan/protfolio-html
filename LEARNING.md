@@ -1,4 +1,5 @@
 # HTML Learnings
+## Basic HTML
 1. How website work?
  - clint-server model
  - http request and response
@@ -31,3 +32,12 @@
  13. tabel
  14. from
  15. Deploy
+
+ ## Intermediate HTML
+  - Meta tag & SEO
+  - Adding font-awesome icon and google font
+  - advanced table
+  - advanced from
+  - from data send to your email
+  - Multimedia
+  - htlm5 elements
