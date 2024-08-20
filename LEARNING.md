@@ -20,11 +20,14 @@
    - comment
 8. headings,paragraps, Line break ,Horizental rule
 9. semantic HTML vs Non-semantic
- - semantic tag - main, footer,header,from, table.
+ - semantic tag - main, footer,header,from, table,semantig tag.
  - Non-semantic - div, span.
  10. text formating tag
  11. list 
- 12. link
+      - order ,unorder,definition,nested
+ 12. link and navigation
+    - absolute vs Relative link
+    - a tag ,attributes:href,target,title.
  13. tabel
  14. from
  15. Deploy
