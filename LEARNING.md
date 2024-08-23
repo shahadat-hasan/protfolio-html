@@ -41,3 +41,10 @@
   - from data send to your email
   - Multimedia
   - htlm5 elements
+  - netlify deploy
+### Advance Html
+   - more advance from - <input  type="color/range">
+    datalist,fieldset,legend 
+   - web accessibility
+
+  

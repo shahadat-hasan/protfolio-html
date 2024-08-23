@@ -20,6 +20,14 @@
             background-color: rgb(236, 233, 229);
             font-family: "Roboto", sans-serif;
         }
+        a{
+            
+            color: rgb(8, 0, 0);
+            margin: 2px;
+            height: 24px;
+            font-size: 24px;
+        }
+       
     </style>
 </head>
 <body>
@@ -27,14 +35,14 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#intro">Project</a>
-                    <li><a href="#about">About Me</a>
-                    <li><a href="#skills">Skills</a>
-                    <li><a href="#contact">Contact</a>
-                    <li><a href="#footer">footer</a>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#footer">Footer</a></li>
     
     
-                    </li>
+                   
                 </ul>
             </nav>
            </header>
@@ -44,11 +52,11 @@
    
     <main>
         <!--sectin intro-->
-       <section id="intro">
+       <section id="project">
         <div>
             <h1>Shahadat hossain</h1>
             <p><em>Web developer computer science & Technology</em></p>
-            <img src="image/shahadat.jpg" alt="Shahadat" height="150px">
+            <img src="image/shahadat.jpg" alt="Shahadat" height="150px" alt="image">
             <hr>
          </div> 
        </section>
@@ -89,12 +97,12 @@
                         </tbody>
                      </table>
                 </div>
-                <div>
-                    <h3>Skills Progress</h3>
-                   <div>
-                    <label for="htmlprogress">HTML:</label>
-                    <progress id="htmlprogress" value="90" max="100">90</progress>
-                   </div>
+                <section>
+                    <h2>Skills Progress</h2>
+                    <div>
+                        <label for="htmlprogress">HTML:</label>
+                        <progress id="htmlprogress" value="90" max="100">90</progress>
+                    </div>
                    <div>
                     <label for="CSSprogress">CSS:</label>
                     <progress id="htmlprogress" value="80" max="100">90</progress>
@@ -103,15 +111,15 @@
                     <label for="Jsprogress">Javascript:</label>
                     <progress id="htmlprogress" value="75" max="100">90</progress>
                    </div>
-                </div>
-                <div>
-                    <h3>Experience Level</h3>
+                </section>
+                <section>
+                    <h2>Experience Level</h2>
                     <div>
                         <label for="experiencelevel">Experience:</label>
                         <meter value="5" min="o" max="10">10 years</meter>
                     </div>
 
-                </div>
+                </section>
 
     </section>
 
@@ -134,24 +142,47 @@
     <section id="contact">
      <h2>Contact:</h2>
         <form action="https://formspree.io/f/mwpenzzo" method="post">
-           <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-           </div>
-           <div>
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" required>
-           </div>
+            <fieldset>
+                <legend>Personal information</legend>
+                 <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"  required>
+                   </div>
+                   <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                   </div>
+                   <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" max="55" required>
+                   </div>
+            </fieldset>
            
            <div>
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" min="18" max="55" required>
+               <label for="fevouritecolor">Favourite color:</label>
+               <input type="color" id="fevouritecolor" name="fevoritecolor" value="#ff0000" required>
            </div>
            <div>
-            <label for="website">website page:</label>
-            <input type="website" id="website" name="website">
+            <label for="experience">Experience:</label>
+            <input type="range" id="experience" name="experience" min="0" max="10" required>
            </div>
            <div>
+            <label for="programming">Favourite programming language:</label>
+            <input list="language" id="programming" name="programming" required>
+           </div>
+              <datalist id="language">
+                    <option value="python">
+                    <option value="C++">
+                    <option value="C">
+                    <option value="Javascript">
+                    <option value="Css">
+                    
+                </datalist>
+            <div>
+             <label for="website">website page:</label>
+             <input type="website" id="website" name="website">
+            </div>
+            <div>
             <label for="website">Subject:</label>
             
             <select name="website" id="website">
@@ -174,34 +205,30 @@
     </section>
     </main>
     <!--footer section-->
-    <div>
-        <section id="footer">
+    <section>
+        <div id="footer">
             <footer>
                 <p>Copyright reserved by &copy; shahadat</p>
                 <p>developer with &hearts;</p>
-                <a href="tel:01301608623">Call Me</a>
+                <a href="tel:01301608623" target="_blank">Call Me</a>
                 <a href="mailto:shahadathasan743599@gmail.com">E-mail</a>
                 <h2>Follow Me</h2>
                 <ul>
                     <li><a href="https://www.facebook.com/profile.php?id=100088683645693" target="_blank"><i class="fa-brands fa-facebook"></i>
-                    Facebook page</a></li>
+                    visit Facebook page</a></li>
                     <li><a href=https://github.com/shahadat-hasan target="_blank"><i class="fa-brands fa-square-github"></i>
                         
                     GitHub</a></li>
                     <li><a href=https://www.linkedin.com/in/m-k-shahadat-mohammad-942577305/ target="_blank"><i class="fa-brands fa-linkedin"></i>
-                    Linkding</a></li>
+                    visit Linkding</a></li>
                     
                 </ul>
     
             </footer>
-        </section>
-    </div>
+        </div>
+    </section>
     <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236272.87680046336!2d90.62190995630573!3d22.286939279413122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ab3cb3e0eeb229%3A0xf18d50b279ce2ede!2sLalmohan%20Upazila!5e0!3m2!1sen!2sbd!4v1724168756969!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236272.87680046336!2d90.62190995630573!3d22.286939279413122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ab3cb3e0eeb229%3A0xf18d50b279ce2ede!2sLalmohan%20Upazila!5e0!3m2!1sen!2sbd!4v1724168756969!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
     </div>
-
-
-    
-
 </body>
 </html>
